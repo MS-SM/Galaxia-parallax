@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <title>Prueba con parallax.js</title> <!--Título que aparece en la pestaña-->
+  <meta charset="utf-8"> <!--Permite utilizar caracteres especiales como, por ejemplo, la ñ, letras con acento, etc.-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--Indica con qué versión de Internet Explorer debe mostrar la página web. En este caso es "edge". Sólo tiene sentido si el navegador es Internet Explorer 10 (para abajo)-->
+  <meta name="description" content="Esta es una prueba de efecto parallax con imágenes">
+  <meta name="author" content="Malvina Soledad Santa Maria">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width,initial-scale=1"> <!--Recalcula la cantidad de pixeles para ajustarlo al dispositivo móvil-->
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!-- Parallax JS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+
+  <!-- jQuery
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+</head>
+<body>
+    <section>
+      <ul id="scene">
+        <li class="layer" data-depth="1">
+          <img src="images/3.png">
+        </li>
+        <li class="layer" data-depth="0.7">
+          <img src="images/2.png">
+        </li>
+        <li class="layer" data-depth="0.15">
+          <img src="images/1.png">
+        </li>
+      </ul>
+    </section>
+
+    <script type="text/javascript">
+        let scene = document.getElementById('scene')
+        let parallax = new Parallax(scene)
+      </script>
+
+</body>
+</html>
+</html>
