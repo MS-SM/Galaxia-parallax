@@ -3,7 +3,7 @@ body {
 }
 
 section {
-  width: 45%;
+  width: 50%;
   height: 100vh;
   position: absolute;
   top: 0;
@@ -28,6 +28,24 @@ section img {
     width: 100%;
   }
   section img {
-    width: 1000px;
+    width: 750px;
+  }
+}
+
+@media (max-width: 375px) {
+  section {
+    width: 100%;
+  }
+  section img {
+    width: 800px;
+  }
+}
+
+@media (max-width: 720px) {
+  section {
+    width: 100%;
+  }
+  section img {
+    width: 1500px;
   }
 }
