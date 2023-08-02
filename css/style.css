@@ -23,11 +23,11 @@ section img {
   width: 1200px;
 }
 
-@media (max-width: 647px) {
+@media (max-width: 472px) {
   section {
     width: 100%;
   }
   section img {
-    width: 200px;
+    width: 1200px;
   }
 }
