@@ -27,4 +27,7 @@ section img {
   section {
     width: 100%;
   }
+  section img {
+    width: 1200px;
+  }
 }
