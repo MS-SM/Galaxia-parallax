@@ -13,14 +13,11 @@ section {
 }
 
 section img {
-  width: 110vh;
+  width: 120vh;
 }
 
 @media (min-width: 1024px){
   section {
     width: 50%;
-  }
-  section img {
-    width: 120vh;
   }
 }
